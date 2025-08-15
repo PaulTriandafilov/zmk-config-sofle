@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urchin-sonic
+    - name: urchin-peripheral-animation
       url-base: https://github.com/PaulTriandafilov
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: urchin-sonic
+    - name: urchin-peripheral-animation
       remote: urchin-peripheral-animation
       revision: main
   self:
